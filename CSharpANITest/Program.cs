@@ -25,6 +25,7 @@ namespace CSharpANITest
     {
         static void Main(string[] args)
         {
+            // These compile successfully but fail at runtime.
             Startup.Configure(new Settings { Name = "C# Test", Version = "1" });
             Startup.Configure(new ReadonlySettings("C# Readonly", "1"));
             Console.WriteLine("Press enter to quit.");
