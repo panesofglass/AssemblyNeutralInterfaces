@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AssemblyNeutralInterfaces", "AssemblyNeutralInterfaces\AssemblyNeutralInterfaces.fsproj", "{EFB81D3B-654E-4251-8B68-59E3E46A6304}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpANITest", "FSharpANITest\FSharpANITest.fsproj", "{1566EA3F-6BE8-4145-8CCC-4C987A2420B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpANITest", "CSharpANITest\CSharpANITest.csproj", "{45F14951-DE82-4699-B6C0-DCED6FCB5C7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EFB81D3B-654E-4251-8B68-59E3E46A6304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB81D3B-654E-4251-8B68-59E3E46A6304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB81D3B-654E-4251-8B68-59E3E46A6304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1566EA3F-6BE8-4145-8CCC-4C987A2420B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1566EA3F-6BE8-4145-8CCC-4C987A2420B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1566EA3F-6BE8-4145-8CCC-4C987A2420B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1566EA3F-6BE8-4145-8CCC-4C987A2420B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F14951-DE82-4699-B6C0-DCED6FCB5C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F14951-DE82-4699-B6C0-DCED6FCB5C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F14951-DE82-4699-B6C0-DCED6FCB5C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F14951-DE82-4699-B6C0-DCED6FCB5C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
