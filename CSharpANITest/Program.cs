@@ -11,17 +11,14 @@ namespace CSharpANITest
 
     class ReadonlySettings
     {
-        readonly string name;
-        readonly string version;
+        public readonly string Name;
+        public readonly string Version;
 
         public ReadonlySettings(string name, string version)
         {
-            this.name = name;
-            this.version = version;
+            Name = name;
+            Version = version;
         }
-
-        public string Name { get { return name; } }
-        public string Version { get { return version; } }
     }
 
     class Program
